@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your NavDisha Profile</title>
+    <link rel="stylesheet" href="styles.css">
+   </head>
+<body>
+
+    <div class="container">
+        <header class="header">
+            <h1 data-key="header">Your NavDisha Profile</h1>
+            <div class="language-selector">
+                <select onchange="changeLanguage(this.value)">
+                    <option value="en">English</option>
+                    <option value="hi">Hindi</option>
+                </select>
+            </div>
+        </header>
+
+        <section class="profile">
+            <h2 data-key="profileDetails">Profile Details</h2>
+
+            <div class="profile-info">
+                <label for="name" data-key="fullName">Full Name:</label>
+                <p id="name">Laxmi Kumari</p>
+            </div>
+
+            <div class="profile-info">
+                <label for="age" data-key="age">Age:</label>
+                <p id="age">28</p>
+            </div>
+
+            <div class="profile-info">
+                <label for="income" data-key="income">Monthly Income (in ₹):</label>
+                <p id="income">₹50,000</p>
+            </div>
+
+            <div class="profile-info">
+                <label for="goal" data-key="financialGoal">Financial Goal:</label>
+                <p id="goal">Savings</p>
+            </div>
+
+            <div class="profile-info">
+                <label for="literacy" data-key="literacyLevel">Financial Literacy Level:</label>
+                <p id="literacy">Intermediate</p>
+            </div>
+
+            <div class="profile-info">
+                <label for="language" data-key="preferredLanguage">Preferred Language:</label>
+                <p id="language">Hindi</p>
+            </div>
+
+            <div class="profile-info">
+                <label for="aadhar" data-key="aadharCard">Aadhaar Card:</label>
+                <p id="aadhar">Uploaded</p>
+            </div>
+
+            <div class="profile-actions">
+                <button class="edit-button" data-key="editProfile">Edit Profile</button>
+            </div>
+        </section>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

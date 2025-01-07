@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333;
+}
+
+.container {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #ffffff; /* White background */
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    color: #2c3e50; /* Darker text for the header */
+    margin-bottom: 20px;
+}
+
+.language-selector {
+    text-align: right;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    color: #27ae60; /* Subtle green color for section titles */
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.profile-info {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+p {
+    font-size: 1.1em;
+    color: #34495e; /* Slightly lighter text color */
+}
+
+.profile-actions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #27ae60; /* Subtle green button */
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2ecc71; /* Slightly lighter green on hover */
+}
